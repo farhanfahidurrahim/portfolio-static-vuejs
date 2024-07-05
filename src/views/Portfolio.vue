@@ -200,6 +200,24 @@
               libero nec quam aliquet suscipit.
             </p>
           </div>
+
+          <div class="education-item">
+            <h3>HSC</h3>
+            <p>Gurudayal Govt College, 2013</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              libero nec quam aliquet suscipit.
+            </p>
+          </div>
+
+          <div class="education-item">
+            <h3>SSC</h3>
+            <p>Kishoreganj Govt Boys High School, 2011</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              libero nec quam aliquet suscipit.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -383,40 +401,6 @@ const projects = [
   max-width: 500px;
 }
 
-/* Skills Section Styles */
-.skills {
-  padding: 50px 0;
-  background-color: #1e1e1e;
-  color: #fff;
-}
-
-.section-title .highlight-skills {
-  color: #00bfa6;
-}
-
-.skills-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.skill-item {
-  flex: 1;
-  text-align: center;
-}
-
-.skill-bar {
-  background-color: #333;
-  border-radius: 8px;
-  overflow: hidden;
-  margin-top: 10px;
-}
-
-.skill-progress {
-  height: 20px;
-  background-color: #00bfa6;
-}
-
 /* About Section Styles */
 
 .about {
@@ -462,10 +446,46 @@ const projects = [
   margin-bottom: 20px;
 }
 
+/* Skills Section Styles */
+.skills {
+  padding: 50px 0;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.section-title .highlight-skills {
+  color: #00bfa6;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-item {
+  flex: 1;
+  text-align: center;
+}
+
+.skill-bar {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.skill-progress {
+  height: 20px;
+  background-color: #00bfa6;
+}
+
+
+
 /* Work & Experience Section Styles */
 .work-experience {
   padding: 50px 0;
-  background-color: #1e1e1e;
+  background-color: #29292a;
   color: #fff;
 }
 
@@ -485,7 +505,7 @@ const projects = [
 }
 
 .work-experience-item {
-  background-color: #fff;
+  background-color: #201e1e;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -494,10 +514,12 @@ const projects = [
 
 .work-experience-item h3 {
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .work-experience-item p {
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .work-experience-item ul {
@@ -507,13 +529,14 @@ const projects = [
 
 .work-experience-item ul li {
   margin-bottom: 5px;
+  color: #fff;
 }
 
-/* Projects Section Styles */
+/* Latest Projects Section Styles */
 
 .projects {
   padding: 50px 0;
-  background-color: #29292a;
+  background-color: #1e1e1e;
 }
 
 .section-title {
@@ -568,11 +591,21 @@ const projects = [
 }
 
 .education-item {
-  background-color: #fff;
+  background-color: #201e1e;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #1e1e1e;
+}
+
+.education-item h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.education-item p {
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 /* End */
