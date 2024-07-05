@@ -222,7 +222,28 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section id="why-hire-me" class="why-hire-me">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="highlight-why">Why </span>
+          <span class="highlight-hire">Hire Me?</span>
+        </h2>
+        <div class="why-hire-me-content">
+          <p>
+            I bring a unique blend of technical expertise and practical experience to the table. With a proven track record of delivering high-quality projects, I am committed to continuously honing my skills and staying up-to-date with the latest industry trends. My ability to lead a team and collaborate effectively makes me a valuable asset to any organization. Here are some reasons why you should consider hiring me:
+          </p>
+          <ul>
+            <li>Strong foundation in software development principles and practices.</li>
+            <li>Extensive experience with PHP, Laravel, MySQL, JavaScript, and Vue.js.</li>
+            <li>Proven ability to develop and implement RESTful APIs.</li>
+            <li>Track record of leading successful projects and delivering on time.</li>
+            <li>Commitment to continuous learning and professional development.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="contact">
       <div class="container">
         <h2 class="section-title">Contact Me</h2>
         <form class="contact-form">
@@ -240,6 +261,15 @@
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
+      </div>
+    </section> -->
+
+    <section id="footer" class="footer">
+      <div class="container footer-content">
+        <div class="footer-text">
+        </div>
+        <div class="footer-image">
+        </div>
       </div>
     </section>
   </div>
@@ -276,7 +306,12 @@ const projects = [
 /* Header Styles */
 .header {
   background-color: #121212;
-  padding: 20px 0;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .navbar {
@@ -608,11 +643,99 @@ const projects = [
   color: #fff;
 }
 
+/* Why Hire Me Section Styles */
+
+.why-hire-me {
+  padding: 60px 0;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.why-hire-me-content {
+  margin: 0 auto;
+}
+
+.why-hire-me-content p,
+.why-hire-me-content ul {
+  font-size: 18px;
+}
+
+.why-hire-me-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.why-hire-me-content li {
+  margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+  text-align: left;
+  padding: 25px 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  max-width: 600px;
+}
+
+.footer-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.footer-subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle .highlight {
+  color: #00bfa6;
+}
+
+.footer-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-primary {
+  background-color: #00bfa6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 191, 166, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: #009688;
+  box-shadow: 0 0 20px rgba(0, 191, 166, 0.7);
+}
+
 /* End */
 
 .contact {
   padding: 50px 0;
-  background-color: #1e1e1e;
+  background-color: #29292a;
   color: #fff;
 }
 
