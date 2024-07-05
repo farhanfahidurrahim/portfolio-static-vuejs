@@ -58,15 +58,11 @@
         </div>
         <div class="about-text">
           <h2>About <span class="highlight">Me</span></h2>
-          <h3>Frontend Developer!</h3>
+          <!-- <h3>Software Developer!</h3> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-            delectus itaque. Aliquid officia aliquid aliquam dolorum consequatur
-            suscipit ducimus tenetur maiores vel commodi veniam ratione! Nisi
-            praesentium delectus, fugit officia cupiditate in illum, modi unde
-            recusandae, molestias excepturi voluptatum temporibus.
+            I am Md. Fahidur Rahim, a passionate Software Developer with a strong background in PHP, Laravel, MySQL, RestAPI, JavaScript, and Vue.js. With over 1 years of experience in the industry, I have developed and maintained web applications, built APIs for frontend and mobile developers, and led teams to deliver high-quality projects on time. Currently, I am working at Classic IT, where I continue to hone my skills and contribute to exciting projects.
           </p>
-          <a href="#" class="btn btn-secondary">Read More</a>
+          <!-- <a href="#" class="btn btn-secondary">Read More</a> -->
         </div>
       </div>
     </section>
