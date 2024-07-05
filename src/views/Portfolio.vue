@@ -4,11 +4,11 @@
       <nav class="navbar container">
         <a href="#" class="nav-logo">Portfolio</a>
         <ul class="nav-menu">
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('home')">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('hero')">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('about')">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('skills')">Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('work-experience')">Work/Experience</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('projects')">Latest Projects</a></li>
         </ul>
       </nav>
     </header>
@@ -67,7 +67,7 @@
       </div>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills">
       <div class="container">
         <h2 class="section-title">
           <span class="highlight-skills">Skills</span>
@@ -118,7 +118,7 @@
       </div>
     </section>
 
-    <section class="work-experience">
+    <section id="work-experience" class="work-experience">
       <div class="container">
         <h2 class="section-title">
           <span class="highlight-work">Work & </span>
@@ -166,7 +166,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="container">
         <h2 class="section-title">
           <span class="highlight-latest">Latest </span>
@@ -195,28 +195,20 @@
           <div class="education-item">
             <h3>BSc in Software Engineering</h3>
             <p>American International University Bangladesh (AIUB)</p>
-            <p>
+            <!-- <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
               libero nec quam aliquet suscipit.
-            </p>
+            </p> -->
           </div>
 
           <div class="education-item">
             <h3>HSC</h3>
             <p>Gurudayal Govt College, 2013</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-              libero nec quam aliquet suscipit.
-            </p>
           </div>
 
           <div class="education-item">
             <h3>SSC</h3>
             <p>Kishoreganj Govt Boys High School, 2011</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-              libero nec quam aliquet suscipit.
-            </p>
           </div>
         </div>
       </div>
