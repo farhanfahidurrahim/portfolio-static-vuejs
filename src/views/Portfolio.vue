@@ -180,7 +180,7 @@
           >
             <h3>{{ project.title }}</h3>
             <p>{{ project.description }}</p>
-            <a :href="project.link" class="btn btn-primary">Visit project</a>
+            <a :href="project.link" class="btn btn-primary" target="_blank">Visit project</a>
           </div>
         </div>
       </div>
@@ -280,9 +280,9 @@ const name = "Md. Fahidur Rahim";
 const projects = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Creation Edge",
     description: "Project 1 description",
-    link: "#",
+    link: "https://creationedge.com.bd/",
   },
   {
     id: 2,
