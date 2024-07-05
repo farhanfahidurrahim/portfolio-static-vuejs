@@ -1,11 +1,11 @@
 <template>
   <div class="landing-page">
     <header class="header">
-      <nav class="navbar">
+      <nav class="navbar container">
         <a href="#" class="nav-logo">Portfolio</a>
         <ul class="nav-menu">
-          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('home')">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('about')">About</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
@@ -13,7 +13,7 @@
       </nav>
     </header>
 
-    <section class="hero">
+    <section id="hero" class="hero">
       <div class="container hero-content">
         <div class="hero-text">
           <h1 class="hero-title">Hello, It's Me<br />{{ name }}</h1>
@@ -21,35 +21,22 @@
             And I'm a <span class="highlight">Software Developer</span>
           </p>
           <p class="hero-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            ab, obcaecati repellat reiciendis ipsam perspiciatis.
+            Phone: 01675717825
+            <br>
+            Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
             <a href="#" class="btn btn-primary">Download CV</a>
             <div class="social-links">
-              <!-- <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-twitter"></i>
-              </a> -->
-              <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/md-fahidur-rahim/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://www.github.com"
+                href="https://github.com/farhanfahidurrahim"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -59,15 +46,15 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="" alt="John Kendric" />
+          <img src="../views/../assets/img/cover2.jpg" alt="John Kendric" />
         </div>
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="container about-content">
         <div class="about-image">
-          <img src="" alt="Your Image" />
+          <img src="../views/../assets/img/profile.jpg" alt="Your Image" />
         </div>
         <div class="about-text">
           <h2>About <span class="highlight">Me</span></h2>
@@ -138,69 +125,46 @@
     <section class="work-experience">
       <div class="container">
         <h2 class="section-title">
-          <span class="highlight-work">Work &</span>
+          <span class="highlight-work">Work & </span>
           <span class="highlight-experience">Experience</span>
         </h2>
         <div class="work-experience-grid">
           <div class="work-experience-item">
-            <h3>Senior Frontend Developer</h3>
-            <p>Company Name, 2021 - Present</p>
+            <h3>Software Developer</h3>
+            <p>Classic IT, 2023 - Present</p>
             <ul>
               <li>
-                Developed and maintained web applications using Vue.js and
-                React.
+                Developed and maintained web applications using PHP Laravel and MySQL.
               </li>
               <li>
-                Led a team of developers to deliver high-quality projects on
+                Build Implementation API for Frontend React.Js & Android Flutter Developer.
+              </li>
+              <li>
+                Lead a team of developers to deliver high-quality projects on
                 time.
-              </li>
-              <li>
-                Implemented responsive design and ensured cross-browser
-                compatibility.
               </li>
             </ul>
           </div>
           <div class="work-experience-item">
-            <h3>Frontend Developer</h3>
-            <p>Company Name, 2018 - 2021</p>
+            <h3>Remote Job</h3>
+            <p>Contract Based, 2023 - 2023</p>
             <ul>
               <li>
-                Worked on various client projects, providing frontend
-                development solutions.
+                Customize Web Software Laravel Blade.
               </li>
               <li>
-                Collaborated with designers to create intuitive user interfaces.
-              </li>
-              <li>
-                Optimized web applications for performance and scalability.
+                Build API for Flutter App.
               </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="services">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="highlight-our">Our </span>
-          <span class="highlight">Services</span>
-        </h2>
-        <div class="services-grid">
-          <div class="service-item">
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" class="btn btn-secondary">Read More</a>
-          </div>
-          <div class="service-item">
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" class="btn btn-secondary">Read More</a>
-          </div>
-          <div class="service-item">
-            <h3>Digital Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" class="btn btn-secondary">Read More</a>
+          <div class="work-experience-item">
+            <h3>Web Developer</h3>
+            <p>LinkTech IT, 2019 - 2020</p>
+            <ul>
+              <li>
+                Build Web Software Laravel Blade.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -233,16 +197,8 @@
         </h2>
         <div class="education-grid">
           <div class="education-item">
-            <h3>Bachelor's Degree in Computer Science</h3>
-            <p>University Name, Year</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-              libero nec quam aliquet suscipit.
-            </p>
-          </div>
-          <div class="education-item">
-            <h3>Master's Degree in Software Engineering</h3>
-            <p>University Name, Year</p>
+            <h3>BSc in Software Engineering</h3>
+            <p>American International University Bangladesh (AIUB)</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
               libero nec quam aliquet suscipit.
@@ -276,6 +232,14 @@
 </template>
 
 <script setup>
+
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 const name = "Md. Fahidur Rahim";
 const projects = [
   {
@@ -420,7 +384,7 @@ const projects = [
 .hero-image img {
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
-  max-width: 300px;
+  max-width: 500px;
 }
 
 /* Skills Section Styles */
@@ -547,41 +511,6 @@ const projects = [
 
 .work-experience-item ul li {
   margin-bottom: 5px;
-}
-
-/* Services Section Styles */
-.services {
-  padding: 50px 0;
-  background-color: #1e1e1e;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.section-title .highlight-our {
-  color: #ffffff;
-}
-
-.section-title .highlight {
-  color: #00bfa6;
-}
-
-.services-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.service-item {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  flex: 1;
 }
 
 /* Projects Section Styles */
