@@ -290,6 +290,18 @@ const projects = [
     description: "Project 2 description",
     link: "#",
   },
+  {
+    id: 3,
+    title: "Project 2",
+    description: "Project 2 description",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Project 2",
+    description: "Project 2 description",
+    link: "#",
+  },
   // Add more projects as needed
 ];
 </script>
