@@ -658,6 +658,10 @@ const projects = [
   margin-bottom: 10px;
 }
 
+.section-title .highlight-hire {
+  color: #00bfa6;
+}
+
 /* Footer Section Styles */
 .footer {
   text-align: left;
