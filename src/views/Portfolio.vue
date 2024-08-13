@@ -26,7 +26,7 @@
             Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
-            <a href="#" class="btn btn-primary">Download CV</a>
+            <a href="https://drive.google.com/file/d/1oazzXLJ8zT1RtmW4Dm0NPRth1VahlOyI/view?usp=sharing" class="btn btn-primary">Download CV</a>
             <div class="social-links">
               <a
                 href="https://www.linkedin.com/in/md-fahidur-rahim/"
@@ -74,45 +74,30 @@
         </h2>
         <div class="skills-grid">
           <div class="skill-item">
-            <h3>PHP OOP</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/php.png" alt="php Icon" style="width: 60px; vertical-align: middle;"> PHP OOP</h3>
+<!--            <div class="skill-bar">-->
+<!--              <div class="skill-progress" style="width: 90%"></div>-->
+<!--            </div>-->
           </div>
           <div class="skill-item">
-            <h3>Laravel Framework</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/laravel.png" alt="laravel Icon" style="width: 60px; vertical-align: middle;"> Laravel</h3>
           </div>
 
           <div class="skill-item">
-            <h3>MySQL</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/database.png" alt="mysql Icon" style="width: 60px; vertical-align: middle;"> MySQL</h3>
           </div>
         </div>
 
         <div class="skills-grid mt-5">
           <div class="skill-item">
-            <h3>RestAPI</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/api.png" alt="api Icon" style="width: 60px; vertical-align: middle;"> RestAPI</h3>
           </div>
 
           <div class="skill-item">
-            <h3>JavaScript</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/javascript.png" alt="js Icon" style="width: 60px; vertical-align: middle;"> JavaScript</h3>
           </div>
           <div class="skill-item">
-            <h3>VueJs</h3>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
+            <h3><img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Vue JS</h3>
           </div>
         </div>
       </div>
