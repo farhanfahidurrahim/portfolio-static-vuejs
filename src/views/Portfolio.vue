@@ -2,7 +2,7 @@
   <div class="landing-page">
     <header class="header">
       <nav class="navbar container">
-        <a href="#" class="nav-logo">Portfolio</a>
+        <a href="#" class="nav-logo">Fahidur Rahim</a>
         <ul class="nav-menu">
           <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('hero')">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('about')">About</a></li>
@@ -85,7 +85,6 @@
           <div class="skill-item">
             <h3><img src="../assets/img/icon/laravel.png" alt="laravel Icon" style="width: 60px; vertical-align: middle;"> Laravel</h3>
           </div>
-
           <div class="skill-item">
             <h3><img src="../assets/img/icon/database.png" alt="mysql Icon" style="width: 60px; vertical-align: middle;"> MySQL</h3>
           </div>
@@ -95,12 +94,23 @@
           <div class="skill-item">
             <h3><img src="../assets/img/icon/api.png" alt="api Icon" style="width: 60px; vertical-align: middle;"> RestAPI</h3>
           </div>
-
           <div class="skill-item">
             <h3><img src="../assets/img/icon/javascript.png" alt="js Icon" style="width: 60px; vertical-align: middle;"> JavaScript</h3>
           </div>
           <div class="skill-item">
             <h3><img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Vue JS</h3>
+          </div>
+        </div>
+
+        <div class="skills-grid mt-5">
+          <div class="skill-item">
+            <h3><img src="../assets/img/icon/jquery.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Jquery</h3>
+          </div>
+          <div class="skill-item">
+            <h3><img src="../assets/img/icon/ajax.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Ajax</h3>
+          </div>
+          <div class="skill-item">
+            <h3><img src="../assets/img/icon/git.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Git</h3>
           </div>
         </div>
       </div>
