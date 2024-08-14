@@ -44,6 +44,9 @@
               </a>
             </div>
           </div>
+          <p class="hero-subtitle mt-3">
+            <span class="highlight">1+ years</span> of Experience
+          </p>
         </div>
         <div class="hero-image">
           <img src="../views/../assets/img/cover2.jpg" alt="John Kendric" />
@@ -70,7 +73,7 @@
     <section id="skills" class="skills">
       <div class="container">
         <h2 class="section-title">
-          <span class="highlight-skills">Skills</span>
+          My <span class="highlight-skills">Skills</span>
         </h2>
         <div class="skills-grid">
           <div class="skill-item">
@@ -111,39 +114,55 @@
         </h2>
         <div class="work-experience-grid">
           <div class="work-experience-item">
-            <h3>Software Developer</h3>
-            <p>Classic IT, 2023 - Present</p>
+            <h3>Jr. Software Developer</h3>
+            <p>Classic IT, November 2023 - Present</p>
             <ul>
               <li>
-                Developed and maintained web applications using PHP Laravel and MySQL.
+                Conduct client meetings to gather and clarify project requirements, convert the requirements into actionable project ideas and designs.
               </li>
               <li>
-                Build Implementation API for Frontend React.Js & Android Flutter Developer.
+                Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end applications (React, Vue, Flutter).
               </li>
               <li>
-                Lead a team of developers to deliver high-quality projects on
-                time.
+                Develop and build front-end applications using Vue.js, integrated with Laravel APIs.
+              </li>
+              <li>
+                Create and develop dynamic websites following the Laravel MVC pattern in client requirements.
+              </li>
+              <li>Identify and resolve bugs and errors in the project, providing client support for updates and testing to ensure project quality.
               </li>
             </ul>
           </div>
           <div class="work-experience-item">
             <h3>Remote Job</h3>
-            <p>Contract Based, 2023 - 2023</p>
+            <p>Contract Based, February 2023 - July 2023</p>
             <ul>
               <li>
-                Customize Web Software Laravel Blade.
+                Gather and clarify project requirements in client meetings, converting them into actionable project designs.
               </li>
               <li>
-                Build API for Flutter App.
+                Create, build, and customize web software using Laravel Blade templates.
+              </li>
+              <li>
+                Develop, build & maintain RESTful APIs for Flutter App.
               </li>
             </ul>
           </div>
           <div class="work-experience-item">
             <h3>Web Developer</h3>
-            <p>LinkTech IT, 2019 - 2020</p>
+            <p>LinkTech IT, October 2019 - January 2020</p>
             <ul>
               <li>
-                Build Web Software Laravel Blade.
+                Create, build, and maintain web software using Laravel Blade templates.
+              </li>
+            </ul>
+          </div>
+          <div class="work-experience-item">
+            <h3>Internship</h3>
+            <p>Codeless Technologies, 3 Months</p>
+            <ul>
+              <li>
+                convert PSD to html web page
               </li>
             </ul>
           </div>
@@ -265,25 +284,31 @@ const name = "Md. Fahidur Rahim";
 const projects = [
   {
     id: 1,
-    title: "Creation Edge",
+    title: "Vue Project",
     description: "Project 1 description",
     link: "https://creationedge.com.bd/",
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "POS",
     description: "Project 2 description",
     link: "#",
   },
   {
     id: 3,
-    title: "Project 2",
+    title: "Creation EDGE",
     description: "Project 2 description",
     link: "#",
   },
   {
     id: 4,
-    title: "Project 2",
+    title: "Project 4",
+    description: "Project 2 description",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Project 4",
     description: "Project 2 description",
     link: "#",
   },
