@@ -180,21 +180,49 @@
       </div>
     </section>
 
+<!--    <section id="projects" class="projects">-->
+<!--      <div class="container">-->
+<!--        <h2 class="section-title">-->
+<!--          <span class="highlight-latest">Latest </span>-->
+<!--          <span class="highlight">Project</span>-->
+<!--        </h2>-->
+<!--        <div class="projects-grid">-->
+<!--          <div-->
+<!--            v-for="project in projects"-->
+<!--            :key="project.id"-->
+<!--            class="project-item"-->
+<!--          >-->
+<!--            <h3>{{ project.title }}</h3>-->
+<!--            <p>{{ project.description }}</p>-->
+<!--            <a :href="project.link" class="btn btn-primary" target="_blank">Visit project</a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
     <section id="projects" class="projects">
       <div class="container">
         <h2 class="section-title">
-          <span class="highlight-latest">Latest </span>
-          <span class="highlight">Project</span>
+          <span class="highlight-latest">Latest</span>
+          <span class="highlight"> Projects</span>
         </h2>
         <div class="projects-grid">
           <div
-            v-for="project in projects"
-            :key="project.id"
-            class="project-item"
+              v-for="project in projects"
+              :key="project.id"
+              class="project-item"
           >
-            <h3>{{ project.title }}</h3>
-            <p>{{ project.description }}</p>
-            <a :href="project.link" class="btn btn-primary" target="_blank">Visit project</a>
+<!--            <div class="project-image">-->
+<!--              <img :src="project.image" :alt="project.title" />-->
+<!--            </div>-->
+            <div class="project-content">
+              <h3>{{ project.title }}</h3>
+              <p>Technologies: {{ project.technology }}</p>
+              <ul>
+                <li v-for="point in project.key_points" :key="point">{{ point }}</li>
+              </ul>
+              <a :href="project.link" class="btn btn-primary link" target="_blank">Visit Project</a>
+            </div>
           </div>
         </div>
       </div>
@@ -295,34 +323,69 @@ const projects = [
   {
     id: 1,
     title: "Vue Project",
-    description: "Project 1 description",
-    link: "https://creationedge.com.bd/",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
   },
   {
     id: 2,
-    title: "POS",
-    description: "Project 2 description",
-    link: "#",
+    title: "Vue Project",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
   },
   {
     id: 3,
-    title: "Creation EDGE",
-    description: "Project 2 description",
-    link: "#",
+    title: "Vue Project",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
   },
   {
     id: 4,
-    title: "Project 4",
-    description: "Project 2 description",
-    link: "#",
+    title: "Vue Project",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
   },
   {
-    id: 4,
-    title: "Project 4",
-    description: "Project 2 description",
-    link: "#",
+    id: 5,
+    title: "Vue Project",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
   },
-  // Add more projects as needed
+  {
+    id: 6,
+    title: "Vue Project",
+    technology: "Vue Js (Frontend)",
+    key_points: [
+      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
+      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+    ],
+    link: "www.1",
+  },
 ];
 </script>
 
@@ -593,15 +656,18 @@ const projects = [
 
 /* Latest Projects Section Styles */
 
+/* Latest Projects Section Styles */
+
 .projects {
-  padding: 50px 0;
+  padding: 70px 0;
   background-color: #1e1e1e;
 }
 
 .section-title {
   text-align: center;
-  font-size: 36px;
-  margin-bottom: 40px;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: #ffffff;
 }
 
 .section-title .highlight-latest {
@@ -613,23 +679,68 @@ const projects = [
 }
 
 .projects-grid {
-  display: flex;
+  display: grid;
   gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* This ensures 3 items per row */
   justify-content: center;
 }
 
+
 .project-item {
-  background-color: #fff;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-content {
   padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  flex: 1;
+  color: #ffffff;
+  text-align: left;
+}
+
+.project-content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.project-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #00bfa6;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary.link {
+  font-size: 14px; /* Custom font size for .link */
+  padding: 8px 16px; /* Custom padding for .link */
+  border-radius: 4px; /* Custom border-radius for .link */
 }
 
 .btn-primary:hover {
   background-color: #009688;
 }
+
 
 /* Education Section Styles */
 .education {
