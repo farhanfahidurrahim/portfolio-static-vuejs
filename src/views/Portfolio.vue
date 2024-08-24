@@ -26,19 +26,19 @@
             Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
-            <a href="https://drive.google.com/file/d/1oazzXLJ8zT1RtmW4Dm0NPRth1VahlOyI/view?usp=sharing" class="btn btn-primary">Download CV</a>
+            <a href="https://drive.google.com/file/d/1C1_z1VniOHn2QI0fEW-lwvIw_5FzsQ5Q/view?usp=sharing" target="_blank" class="btn btn-primary">Download CV</a>
             <div class="social-links">
               <a
-                href="https://www.linkedin.com/in/md-fahidur-rahim/"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/md-fahidur-rahim/"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://github.com/farhanfahidurrahim"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://github.com/farhanfahidurrahim"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <i class="fab fa-github"></i>
               </a>
@@ -48,11 +48,10 @@
             <span class="highlight">1+ years</span> of Experience
           </p>
         </div>
-        <div class="hero-image">
-          <img src="../views/../assets/img/cover2.jpg" alt="John Kendric" />
-        </div>
+<!--        <div class="hero-image"></div> &lt;!&ndash; Background image applied through CSS &ndash;&gt;-->
       </div>
     </section>
+
 
     <section id="about" class="about">
       <div class="container about-content">
@@ -467,6 +466,28 @@ const projects = [
 /* End Header Section Styles */
 
 /* Hero Section Styles */
+
+section#hero {
+  background: url('../src/assets/img/bgcover.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+section#hero::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+  z-index: -1;
+}
+
 .hero {
   text-align: left;
   padding: 100px 0;
@@ -559,6 +580,12 @@ const projects = [
 .hero-image {
   flex: 1;
   padding: 20px;
+  background-image: url('../views/../assets/img/bg_cover.jpg'); /* Set the background image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
+  height: 300px; /* Adjust height as needed */
 }
 
 .hero-image img {
@@ -589,6 +616,10 @@ const projects = [
   .social-links {
     margin-top: 10px;
   }
+
+  .hero-image {
+    height: 200px; /* Adjust height for smaller screens */
+  }
 }
 
 @media (max-width: 480px) {
@@ -606,6 +637,10 @@ const projects = [
 
   .hero-buttons .btn-primary {
     padding: 8px 16px;
+  }
+
+  .hero-image {
+    height: 150px; /* Adjust height for even smaller screens */
   }
 }
 /* End Hero Section Styles */
