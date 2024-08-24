@@ -348,7 +348,7 @@ const projects = [
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
     link: "https://pos.creationedge.com.bd",
@@ -359,7 +359,7 @@ const projects = [
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
     link: "https://sunsine.classicitltd.com",
@@ -370,19 +370,19 @@ const projects = [
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Focused on backend logic, providing APIs for seamless integration with the Flutter.js frontend.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
     link: "https://play.google.com/store/apps/details?id=com.porichoytraders.porichoytraders&hl=en",
   },
   {
     id: 6,
-    title: "Wood Machinery",
-    technology: "PHP Laravel [ Backend ]",
+    title: "Wood Machinery (Web & Flutter)",
+    technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
+      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements.",
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Focused on backend logic, providing APIs for seamless integration with the Flutter.js frontend.",
     ],
     link: "https://woodmachinery.com.bd",
   },
