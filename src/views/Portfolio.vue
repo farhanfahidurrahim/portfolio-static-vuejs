@@ -405,18 +405,22 @@ const projects = [
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
 .nav-logo {
   color: #fff;
   font-size: 24px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-menu {
   list-style: none;
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
@@ -428,6 +432,39 @@ const projects = [
   text-decoration: none;
   font-size: 18px;
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+}
+
+/* End Header Section Styles */
 
 /* Hero Section Styles */
 .hero {
@@ -441,9 +478,11 @@ const projects = [
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-text {
+  flex: 1;
   max-width: 600px;
 }
 
@@ -517,11 +556,59 @@ const projects = [
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.7);
 }
 
+.hero-image {
+  flex: 1;
+  padding: 20px;
+}
+
 .hero-image img {
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
-  max-width: 500px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2em;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2em;
+  }
+
+  .hero-description {
+    font-size: 0.9em;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .social-links {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.5em;
+  }
+
+  .hero-subtitle {
+    font-size: 1em;
+  }
+
+  .hero-description {
+    font-size: 0.8em;
+  }
+
+  .hero-buttons .btn-primary {
+    padding: 8px 16px;
+  }
+}
+/* End Hero Section Styles */
 
 /* About Section Styles */
 
@@ -536,16 +623,24 @@ const projects = [
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+  padding: 20px;
 }
 
 .about-image img {
-  max-width: 300px;
+  max-width: 65%;
+  height: auto;
   border-radius: 50%;
   border: 4px solid #00bfa6;
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
 }
 
 .about-text {
+  flex: 1;
   max-width: 600px;
 }
 
@@ -567,6 +662,37 @@ const projects = [
   font-size: 18px;
   margin-bottom: 20px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    max-width: 75%;
+    padding: 10px;
+  }
+
+  .about-text {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about-text h2 {
+    font-size: 1.5em;
+  }
+
+  .about-text p {
+    font-size: 0.9em;
+  }
+}
+
+/* End About Section Styles */
+
 
 /* Skills Section Styles */
 .skills {
@@ -602,6 +728,38 @@ const projects = [
   background-color: #00bfa6;
 }
 
+/* Responsive styles */
+@media (max-width: 992px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2em;
+  }
+
+  .skill-item h3 {
+    font-size: 1em;
+  }
+
+  .skill-item img {
+    width: 50px; /* Adjust the icon size for smaller screens */
+  }
+}
+
+/* End Skill Section Styles */
 
 
 /* Work & Experience Section Styles */
@@ -654,7 +812,7 @@ const projects = [
   color: #fff;
 }
 
-/* Latest Projects Section Styles */
+/* End WorkExp Section Styles */
 
 /* Latest Projects Section Styles */
 
@@ -740,6 +898,48 @@ const projects = [
 .btn-primary:hover {
   background-color: #009688;
 }
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-content h3 {
+    font-size: 1.3em;
+  }
+
+  .project-content p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2em;
+  }
+
+  .project-content h3 {
+    font-size: 1.2em;
+  }
+
+  .project-content p {
+    font-size: 0.9em;
+  }
+
+  .project-content .btn {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+/* End Project Section Styles */
 
 
 /* Education Section Styles */
