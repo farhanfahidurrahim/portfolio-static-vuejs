@@ -2,7 +2,7 @@
   <div class="landing-page">
     <header class="header">
       <nav class="navbar container">
-        <a href="#" class="nav-logo">Fahidur Rahim</a>
+        <a href="#" class="nav-logo">Portfolio</a>
         <ul class="nav-menu">
           <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('hero')">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('about')">About</a></li>
