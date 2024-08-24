@@ -217,7 +217,7 @@
 <!--            </div>-->
             <div class="project-content">
               <h3>{{ project.title }}</h3>
-              <p>Technologies: {{ project.technology }}</p>
+              <p>Technology: {{ project.technology }}</p>
               <ul>
                 <li v-for="point in project.key_points" :key="point">{{ point }}</li>
               </ul>
