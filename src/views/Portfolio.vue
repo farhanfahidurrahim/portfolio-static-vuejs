@@ -327,7 +327,7 @@ const projects = [
     key_points: [
       "Developed and built dynamic frontend applications using Vue.js.",
       "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
-      "Implemented Vue.js 3 Composition API to build interactive interfaces & ensure optimal performance.",
+      "Implemented Vue.js 3 Composition API to build interactive interfaces & ensure performance.",
     ],
     link: "https://github.com/farhanfahidurrahim/POS-Software-Frontend-VueJs",
   },
@@ -337,7 +337,7 @@ const projects = [
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
+      "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
     link: "https://classic-pos-frontend.classicit.org",
