@@ -327,7 +327,7 @@ const projects = [
     key_points: [
       "Developed and built dynamic frontend applications using Vue.js.",
       "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
-      "Implemented Vue.js 3 Composition API to build interactive user interfaces and ensure optimal performance.",
+      "Implemented Vue.js 3 Composition API to build interactive interfaces & ensure optimal performance.",
     ],
     link: "https://github.com/farhanfahidurrahim/POS-Software-Frontend-VueJs",
   },
