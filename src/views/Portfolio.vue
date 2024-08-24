@@ -18,7 +18,7 @@
         <div class="hero-text">
           <h1 class="hero-title">Hello, It's Me<br />{{ name }}</h1>
           <p class="hero-subtitle">
-            And I'm a <span class="highlight">Software Developer</span>
+            <span class="highlight">Software Developer</span>
           </p>
           <p class="hero-description">
             Phone: 01675717825
@@ -44,7 +44,7 @@
               </a>
             </div>
           </div>
-          <p class="hero-subtitle mt-3">
+          <p class="hero-subtitle-exp mt-3">
             <span class="highlight">1+ years</span> of Experience
           </p>
         </div>
@@ -511,13 +511,33 @@ section#hero::after {
   font-size: 48px;
   margin-bottom: 20px;
 }
-
-.hero-subtitle {
+.hero-subtitle[data-v-9e31884d] {
   font-size: 24px;
-  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .hero-subtitle .highlight {
+  color: #00bfa6;
+  display: inline-block;
+  overflow: hidden; /* Ensures that the text stays within the element's width */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  font-family: monospace; /* Optional: makes it look like a typewriter */
+  font-size: 1.2em;
+  animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+.hero-subtitle-exp .highlight {
   color: #00bfa6;
 }
 
@@ -595,6 +615,8 @@ section#hero::after {
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
 }
 
+
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .hero-title {
@@ -628,7 +650,11 @@ section#hero::after {
   }
 
   .hero-subtitle {
-    font-size: 1em;
+    font-size: 1.1em;
+  }
+
+  .hero-subtitle .highlight {
+    font-size: 22px;
   }
 
   .hero-description {
