@@ -322,7 +322,7 @@ const name = "Md. Fahidur Rahim";
 const projects = [
   {
     id: 1,
-    title: "Vue Js Project",
+    title: "Vue Js Project (Personal)",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
@@ -334,7 +334,7 @@ const projects = [
   {
     id: 2,
     title: "Classic POS",
-    technology: "Vue Js (Frontend)",
+    technology: "PHP Laravel (API) [Backend]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -345,7 +345,7 @@ const projects = [
   {
     id: 3,
     title: "Creation EDGE",
-    technology: "Vue Js (Frontend)",
+    technology: "PHP Laravel (API) [Backend]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -355,8 +355,8 @@ const projects = [
   },
   {
     id: 4,
-    title: "Sunshine",
-    technology: "Vue Js (Frontend)",
+    title: "Sun Shine Power",
+    technology: "PHP Laravel (API) [Backend]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -367,7 +367,7 @@ const projects = [
   {
     id: 5,
     title: "Porichoy Traders Flutter App",
-    technology: "Vue Js (Frontend)",
+    technology: "PHP Laravel (API) [Backend]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -378,7 +378,7 @@ const projects = [
   {
     id: 6,
     title: "Wood Machinery",
-    technology: "Vue Js (Frontend)",
+    technology: "PHP Laravel [Backend]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
