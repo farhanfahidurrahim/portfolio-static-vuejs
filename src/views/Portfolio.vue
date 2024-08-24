@@ -172,7 +172,7 @@
             <p>Codeless Technologies, 3 Months</p>
             <ul>
               <li>
-                convert PSD to html web page
+                Web design & convert PSD to html web page.
               </li>
             </ul>
           </div>
@@ -693,11 +693,11 @@ const projects = [
   }
 
   .about-text h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .about-text p {
-    font-size: 0.9em;
+    font-size: 17px;
   }
 }
 
@@ -1000,7 +1000,13 @@ const projects = [
   margin: 0 auto;
 }
 
-.why-hire-me-content p,
+.why-hire-me-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 .why-hire-me-content ul {
   font-size: 18px;
 }
@@ -1017,6 +1023,9 @@ const projects = [
 .section-title .highlight-hire {
   color: #00bfa6;
 }
+
+/* End Hire-Me Section Styles */
+
 
 /* Footer Section Styles */
 .footer {
