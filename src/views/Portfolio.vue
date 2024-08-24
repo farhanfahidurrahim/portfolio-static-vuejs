@@ -322,40 +322,40 @@ const name = "Md. Fahidur Rahim";
 const projects = [
   {
     id: 1,
-    title: "Vue Project",
+    title: "Vue Js Project",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://github.com/farhanfahidurrahim/POS-Software-Frontend-VueJs",
   },
   {
     id: 2,
-    title: "Vue Project",
+    title: "Classic POS",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://classic-pos-frontend.classicit.org",
   },
   {
     id: 3,
-    title: "Vue Project",
+    title: "Creation EDGE",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://pos.creationedge.com.bd",
   },
   {
     id: 4,
-    title: "Vue Project",
+    title: "Sunshine",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
@@ -366,25 +366,25 @@ const projects = [
   },
   {
     id: 5,
-    title: "Vue Project",
+    title: "Porichoy Traders Flutter App",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://play.google.com/store/apps/details?id=com.porichoytraders.porichoytraders&hl=en",
   },
   {
     id: 6,
-    title: "Vue Project",
+    title: "Wood Machinery",
     technology: "Vue Js (Frontend)",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://woodmachinery.com.bd",
   },
 ];
 </script>
