@@ -468,7 +468,7 @@ const projects = [
 /* Hero Section Styles */
 
 section#hero {
-  background: url('../src/assets/img/fbgcover.webp');
+  background: url('../assets/img/fbgcover.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
