@@ -323,7 +323,7 @@ const projects = [
   {
     id: 1,
     title: "Vue Js Project (Personal)",
-    technology: "Vue Js (Frontend)",
+    technology: "Vue Js [ Frontend ]",
     key_points: [
       "Developed and built dynamic frontend applications using Vue.js.",
       "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
@@ -334,7 +334,7 @@ const projects = [
   {
     id: 2,
     title: "Classic POS",
-    technology: "PHP Laravel (API) [Backend]",
+    technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -345,7 +345,7 @@ const projects = [
   {
     id: 3,
     title: "Creation EDGE",
-    technology: "PHP Laravel (API) [Backend]",
+    technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -356,18 +356,18 @@ const projects = [
   {
     id: 4,
     title: "Sun Shine Power",
-    technology: "PHP Laravel (API) [Backend]",
+    technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
       "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
     ],
-    link: "www.1",
+    link: "https://sunsine.classicitltd.com",
   },
   {
     id: 5,
     title: "Porichoy Traders Flutter App",
-    technology: "PHP Laravel (API) [Backend]",
+    technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
@@ -378,7 +378,7 @@ const projects = [
   {
     id: 6,
     title: "Wood Machinery",
-    technology: "PHP Laravel [Backend]",
+    technology: "PHP Laravel [ Backend ]",
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
