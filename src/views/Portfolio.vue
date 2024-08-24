@@ -325,9 +325,9 @@ const projects = [
     title: "Vue Js Project (Personal)",
     technology: "Vue Js (Frontend)",
     key_points: [
-      "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Develop and build front-end applications using Vue.js, integrated with Laravel APIs.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Developed and built dynamic frontend applications using Vue.js.",
+      "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
+      "Implemented Vue.js 3 Composition API to build interactive user interfaces and ensure optimal performance.",
     ],
     link: "https://github.com/farhanfahidurrahim/POS-Software-Frontend-VueJs",
   },
