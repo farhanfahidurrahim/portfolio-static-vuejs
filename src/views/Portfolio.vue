@@ -629,10 +629,13 @@ const projects = [
 .about-image {
   flex: 1;
   padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .about-image img {
-  max-width: 65%;
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
   border: 4px solid #00bfa6;
@@ -642,6 +645,10 @@ const projects = [
 .about-text {
   flex: 1;
   max-width: 600px;
+}
+
+.about-text p {
+  text-align: justify;
 }
 
 .about-text .highlight {
@@ -671,8 +678,11 @@ const projects = [
   }
 
   .about-image {
-    max-width: 75%;
-    padding: 10px;
+    justify-content: center;
+  }
+
+  .about-image img {
+    max-width: 70%;
   }
 
   .about-text {
