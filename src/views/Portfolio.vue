@@ -4,11 +4,46 @@
       <nav class="navbar container">
         <a href="#" class="nav-logo">Portfolio</a>
         <ul class="nav-menu">
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('hero')">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('about')">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('skills')">Skills</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('work-experience')">Work/Experience</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" @click.prevent="scrollToSection('projects')">Latest Projects</a></li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              @click.prevent="scrollToSection('hero')"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              @click.prevent="scrollToSection('about')"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              @click.prevent="scrollToSection('skills')"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              @click.prevent="scrollToSection('work-experience')"
+              >Work/Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link"
+              @click.prevent="scrollToSection('projects')"
+              >Latest Projects</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -22,23 +57,28 @@
           </p>
           <p class="hero-description">
             Phone: 01675717825
-            <br>
+            <br />
             Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
-            <a href="https://drive.google.com/file/d/1C1_z1VniOHn2QI0fEW-lwvIw_5FzsQ5Q/view?usp=sharing" target="_blank" class="btn btn-primary">Download Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1C1_z1VniOHn2QI0fEW-lwvIw_5FzsQ5Q/view?usp=sharing"
+              target="_blank"
+              class="btn btn-primary"
+              >Download Resume</a
+            >
             <div class="social-links">
               <a
-                  href="https://www.linkedin.com/in/md-fahidur-rahim/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/md-fahidur-rahim/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <a
-                  href="https://github.com/farhanfahidurrahim"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                href="https://github.com/farhanfahidurrahim"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-github"></i>
               </a>
@@ -48,10 +88,9 @@
             <span class="highlight">1+ years</span> of Experience
           </p>
         </div>
-<!--        <div class="hero-image"></div> &lt;!&ndash; Background image applied through CSS &ndash;&gt;-->
+        <!--        <div class="hero-image"></div> &lt;!&ndash; Background image applied through CSS &ndash;&gt;-->
       </div>
     </section>
-
 
     <section id="about" class="about">
       <div class="container about-content">
@@ -62,7 +101,13 @@
           <h2>About <span class="highlight">Me</span></h2>
           <!-- <h3>Software Developer!</h3> -->
           <p>
-            I am Md. Fahidur Rahim, a passionate Software Developer with a strong background in PHP, Laravel, MySQL, RestAPI, JavaScript, and Vue.js. With over 1 years of experience in the industry, I have developed and maintained web applications, built APIs for frontend and mobile developers, and led teams to deliver high-quality projects on time. Currently, I am working at Classic IT, where I continue to hone my skills and contribute to exciting projects.
+            I am Md. Fahidur Rahim, a passionate Software Developer with a
+            strong background in PHP, Laravel, MySQL, RestAPI, JavaScript, and
+            Vue.js. With over 1 years of experience in the industry, I have
+            developed and maintained web applications, built APIs for frontend
+            and mobile developers, and led teams to deliver high-quality
+            projects on time. Currently, I am working at Classic IT, where I
+            continue to hone my skills and contribute to exciting projects.
           </p>
           <!-- <a href="#" class="btn btn-secondary">Read More</a> -->
         </div>
@@ -76,40 +121,103 @@
         </h2>
         <div class="skills-grid">
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/php.png" alt="php Icon" style="width: 60px; vertical-align: middle;"> PHP OOP</h3>
-<!--            <div class="skill-bar">-->
-<!--              <div class="skill-progress" style="width: 90%"></div>-->
-<!--            </div>-->
+            <h3>
+              <img
+                src="../assets/img/icon/php.png"
+                alt="php Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              PHP OOP
+            </h3>
+            <!--            <div class="skill-bar">-->
+            <!--              <div class="skill-progress" style="width: 90%"></div>-->
+            <!--            </div>-->
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/laravel.png" alt="laravel Icon" style="width: 60px; vertical-align: middle;"> Laravel</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/laravel.png"
+                alt="laravel Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              Laravel
+            </h3>
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/database.png" alt="mysql Icon" style="width: 60px; vertical-align: middle;"> MySQL</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/database.png"
+                alt="mysql Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              MySQL
+            </h3>
           </div>
         </div>
 
         <div class="skills-grid mt-5">
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/api.png" alt="api Icon" style="width: 60px; vertical-align: middle;"> RestAPI</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/api.png"
+                alt="api Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              RestAPI
+            </h3>
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/javascript.png" alt="js Icon" style="width: 60px; vertical-align: middle;"> JavaScript</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/javascript.png"
+                alt="js Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              JavaScript
+            </h3>
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Vue JS</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/vue.png"
+                alt="vue Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              Vue JS
+            </h3>
           </div>
         </div>
 
         <div class="skills-grid mt-5">
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/jquery.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Jquery</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/jquery.png"
+                alt="vue Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              Jquery
+            </h3>
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/ajax.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Ajax</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/ajax.png"
+                alt="vue Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              Ajax
+            </h3>
           </div>
           <div class="skill-item">
-            <h3><img src="../assets/img/icon/git.png" alt="vue Icon" style="width: 60px; vertical-align: middle;"> Git</h3>
+            <h3>
+              <img
+                src="../assets/img/icon/git.png"
+                alt="vue Icon"
+                style="width: 60px; vertical-align: middle"
+              />
+              Git
+            </h3>
           </div>
         </div>
       </div>
@@ -127,42 +235,56 @@
             <p>Classic IT, November 2023 - Present</p>
             <ul>
               <li>
-                Conduct client meetings to gather and clarify project requirements, convert the requirements into actionable project ideas and designs.
+                Conduct client meetings to gather and clarify project
+                requirements, convert the requirements into actionable project
+                ideas and designs.
               </li>
               <li>
-                Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end applications (React, Vue, Flutter).
+                Develop, build, and maintain RESTful APIs using Laravel and
+                MySQL to support front-end applications (React, Vue, Flutter).
               </li>
               <li>
-                Develop and build front-end applications using Vue.js, integrated with Laravel APIs.
+                Develop and build front-end applications using Vue.js,
+                integrated with Laravel APIs.
               </li>
               <li>
-                Create and develop dynamic websites following the Laravel MVC pattern in client requirements.
+                Create and develop dynamic websites following the Laravel MVC
+                pattern in client requirements.
               </li>
-              <li>Identify and resolve bugs and errors in the project, providing client support for updates and testing to ensure project quality.
+              <li>
+                Identify and resolve bugs and errors in the project, providing
+                client support for updates and testing to ensure project
+                quality.
               </li>
             </ul>
           </div>
           <div class="work-experience-item">
             <h3>Remote Job</h3>
-            <p>Contract Based, February 2023 - July 2023</p>
+            <p>Contract Based, July 2023 - October 2023</p>
             <ul>
               <li>
-                Gather and clarify project requirements in client meetings, converting them into actionable project designs.
+                Gather and clarify project requirements in client meetings,
+                converting them into actionable project designs.
               </li>
               <li>
-                Create, build, and customize web software using Laravel Blade templates.
+                Create, build, and customize web software using Laravel Blade
+                templates.
               </li>
-              <li>
-                Develop, build & maintain RESTful APIs for Flutter App.
-              </li>
+              <li>Develop, build & maintain RESTful APIs for Flutter App.</li>
             </ul>
           </div>
           <div class="work-experience-item">
             <h3>Web Developer</h3>
-            <p>LinkTech IT, October 2019 - January 2020</p>
+            <p>LinkTech IT, October 2019 - March 2020</p>
             <ul>
               <li>
-                Create, build, and maintain web software using Laravel Blade templates.
+                Create, develop and maintain dynamic websites using Laravel MVC
+                and Blade templates to meet client requirements.
+              </li>
+              <li>
+                Gather and clarify client requirements, convert them into
+                actionable designs and identify and resolve bugs, errors in the
+                project.
               </li>
             </ul>
           </div>
@@ -170,34 +292,32 @@
             <h3>Internship</h3>
             <p>Codeless Technologies, 3 Months</p>
             <ul>
-              <li>
-                Web design & convert PSD to html web page.
-              </li>
+              <li>Web design & convert PSD to html web page.</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-<!--    <section id="projects" class="projects">-->
-<!--      <div class="container">-->
-<!--        <h2 class="section-title">-->
-<!--          <span class="highlight-latest">Latest </span>-->
-<!--          <span class="highlight">Project</span>-->
-<!--        </h2>-->
-<!--        <div class="projects-grid">-->
-<!--          <div-->
-<!--            v-for="project in projects"-->
-<!--            :key="project.id"-->
-<!--            class="project-item"-->
-<!--          >-->
-<!--            <h3>{{ project.title }}</h3>-->
-<!--            <p>{{ project.description }}</p>-->
-<!--            <a :href="project.link" class="btn btn-primary" target="_blank">Visit project</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
+    <!--    <section id="projects" class="projects">-->
+    <!--      <div class="container">-->
+    <!--        <h2 class="section-title">-->
+    <!--          <span class="highlight-latest">Latest </span>-->
+    <!--          <span class="highlight">Project</span>-->
+    <!--        </h2>-->
+    <!--        <div class="projects-grid">-->
+    <!--          <div-->
+    <!--            v-for="project in projects"-->
+    <!--            :key="project.id"-->
+    <!--            class="project-item"-->
+    <!--          >-->
+    <!--            <h3>{{ project.title }}</h3>-->
+    <!--            <p>{{ project.description }}</p>-->
+    <!--            <a :href="project.link" class="btn btn-primary" target="_blank">Visit project</a>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
 
     <section id="projects" class="projects">
       <div class="container">
@@ -207,20 +327,27 @@
         </h2>
         <div class="projects-grid">
           <div
-              v-for="project in projects"
-              :key="project.id"
-              class="project-item"
+            v-for="project in projects"
+            :key="project.id"
+            class="project-item"
           >
-<!--            <div class="project-image">-->
-<!--              <img :src="project.image" :alt="project.title" />-->
-<!--            </div>-->
+            <!--            <div class="project-image">-->
+            <!--              <img :src="project.image" :alt="project.title" />-->
+            <!--            </div>-->
             <div class="project-content">
               <h3>{{ project.title }}</h3>
               <p>Technology: {{ project.technology }}</p>
               <ul>
-                <li v-for="point in project.key_points" :key="point">{{ point }}</li>
+                <li v-for="point in project.key_points" :key="point">
+                  {{ point }}
+                </li>
               </ul>
-              <a :href="project.link" class="btn btn-primary link" target="_blank">Visit Project</a>
+              <a
+                :href="project.link"
+                class="btn btn-primary link"
+                target="_blank"
+                >Visit Project</a
+              >
             </div>
           </div>
         </div>
@@ -263,14 +390,31 @@
         </h2>
         <div class="why-hire-me-content">
           <p>
-            I bring a unique blend of technical expertise and practical experience to the table. With a proven track record of delivering high-quality projects, I am committed to continuously honing my skills and staying up-to-date with the latest industry trends. My ability to lead a team and collaborate effectively makes me a valuable asset to any organization. Here are some reasons why you should consider hiring me:
+            I bring a unique blend of technical expertise and practical
+            experience to the table. With a proven track record of delivering
+            high-quality projects, I am committed to continuously honing my
+            skills and staying up-to-date with the latest industry trends. My
+            ability to lead a team and collaborate effectively makes me a
+            valuable asset to any organization. Here are some reasons why you
+            should consider hiring me:
           </p>
           <ul>
-            <li>Strong foundation in software development principles and practices.</li>
-            <li>Extensive experience with PHP, Laravel, MySQL, JavaScript, and Vue.js.</li>
+            <li>
+              Strong foundation in software development principles and
+              practices.
+            </li>
+            <li>
+              Extensive experience with PHP, Laravel, MySQL, JavaScript, and
+              Vue.js.
+            </li>
             <li>Proven ability to develop and implement RESTful APIs.</li>
-            <li>Track record of leading successful projects and delivering on time.</li>
-            <li>Commitment to continuous learning and professional development.</li>
+            <li>
+              Track record of leading successful projects and delivering on
+              time.
+            </li>
+            <li>
+              Commitment to continuous learning and professional development.
+            </li>
           </ul>
         </div>
       </div>
@@ -299,21 +443,18 @@
 
     <section id="footer" class="footer">
       <div class="container footer-content">
-        <div class="footer-text">
-        </div>
-        <div class="footer-image">
-        </div>
+        <div class="footer-text"></div>
+        <div class="footer-image"></div>
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
-
 const scrollToSection = (sectionId) => {
   const element = document.getElementById(sectionId);
   if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: "smooth" });
   }
 };
 
@@ -337,7 +478,7 @@ const projects = [
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Challenging Part: Multiple Product Variation, Branch wise stock, sale, accounting,  distribution.",
     ],
     link: "https://classic-pos-frontend.classicit.org",
   },
@@ -348,7 +489,7 @@ const projects = [
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Challenging Part: Pathao Courier Api, Dispatch via Barcode Scanner machine.",
     ],
     link: "https://pos.creationedge.com.bd",
   },
@@ -359,7 +500,7 @@ const projects = [
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Challenging Part: Managing the Dealer part aspect while maintaining the client's company requirements.",
     ],
     link: "https://sunsine.classicitltd.com",
   },
@@ -370,7 +511,7 @@ const projects = [
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Focused on backend logic, providing APIs for seamless integration with the Flutter.js frontend.",
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements."
+      "Challenging Part: Modifying supplier and customer aspects to meet client's requirements.",
     ],
     link: "https://play.google.com/store/apps/details?id=com.porichoytraders.porichoytraders&hl=en",
   },
@@ -379,9 +520,9 @@ const projects = [
     title: "Wood Machinery (Web & Flutter)",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
-      "Create and develop dynamic websites following the Laravel MVC pattern in client requirements.",
+      "Modify, and fix bugs with logic, and implement Laravel Blade templates to meet client requirements.",
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
-      "Focused on backend logic, providing APIs for seamless integration with the Flutter.js frontend.",
+      "Providing APIs for seamless integration with the Flutter.js frontend.",
     ],
     link: "https://woodmachinery.com.bd",
   },
@@ -468,7 +609,7 @@ const projects = [
 /* Hero Section Styles */
 
 section#hero {
-  background: url('../assets/img/fbgcover.webp');
+  background: url("../assets/img/fbgcover.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -478,13 +619,13 @@ section#hero {
 
 section#hero::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: .5;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -600,7 +741,7 @@ section#hero::after {
 .hero-image {
   flex: 1;
   padding: 20px;
-  background-image: url('../views/../assets/img/bg_cover.jpg'); /* Set the background image */
+  background-image: url("../views/../assets/img/bg_cover.jpg"); /* Set the background image */
   background-size: cover; /* Cover the entire div */
   background-position: center; /* Center the image */
   border-radius: 8px;
@@ -614,8 +755,6 @@ section#hero::after {
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
 }
-
-
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -764,7 +903,6 @@ section#hero::after {
 
 /* End About Section Styles */
 
-
 /* Skills Section Styles */
 .skills {
   padding: 50px 0;
@@ -831,7 +969,6 @@ section#hero::after {
 }
 
 /* End Skill Section Styles */
-
 
 /* Work & Experience Section Styles */
 .work-experience {
@@ -913,7 +1050,6 @@ section#hero::after {
   grid-template-columns: repeat(3, 1fr); /* This ensures 3 items per row */
   justify-content: center;
 }
-
 
 .project-item {
   background-color: #2a2a2a;
@@ -1012,7 +1148,6 @@ section#hero::after {
 
 /* End Project Section Styles */
 
-
 /* Education Section Styles */
 .education {
   padding: 50px 0;
@@ -1086,7 +1221,6 @@ section#hero::after {
 }
 
 /* End Hire-Me Section Styles */
-
 
 /* Footer Section Styles */
 .footer {
