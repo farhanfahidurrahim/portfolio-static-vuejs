@@ -62,7 +62,7 @@
           </p>
           <div class="hero-buttons">
             <a
-              href="https://drive.google.com/file/d/1C1_z1VniOHn2QI0fEW-lwvIw_5FzsQ5Q/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rCWErDJS6mYsJ5UXBghnnnqhW23JxGrF/view?usp=sharing"
               target="_blank"
               class="btn btn-primary"
               >Download Resume</a
