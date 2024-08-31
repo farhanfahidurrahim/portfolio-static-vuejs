@@ -274,7 +274,7 @@
             </ul>
           </div>
           <div class="work-experience-item">
-            <h3>Web Developer</h3>
+            <h3>Laravel Developer</h3>
             <p>LinkTech IT, October 2019 - March 2020</p>
             <ul>
               <li>
