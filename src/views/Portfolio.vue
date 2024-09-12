@@ -402,22 +402,13 @@
             should consider hiring me:
           </p>
           <ul>
-            <li>
-              Strong foundation in software development principles and
-              practices.
-            </li>
-            <li>
-              Extensive experience with PHP, Laravel, MySQL, JavaScript, and
-              Vue.js.
-            </li>
-            <li>Proven ability to develop and implement RestAPIs.</li>
-            <li>
-              Track record of leading successful projects and delivering on
-              time.
-            </li>
-            <li>
-              Commitment to continuous learning and professional development.
-            </li>
+            <li>Strong foundation in software development principles and practices.</li>
+            <li>Extensive experience in backend development with PHP, Laravel, and MySQL.</li>
+            <li>Extensive expertise in developing and implementing highly efficient and scalable RESTful APIs</li>
+            <li>Proficient in JavaScript, including AJAX and jQuery for dynamic web development.</li>
+            <li>Familiarity with frontend development using Vue.js.</li>
+            <li>Track record of leading successful projects and delivering on time.</li>
+            <li>Committed to continuous learning and professional development.</li>
           </ul>
         </div>
       </div>
