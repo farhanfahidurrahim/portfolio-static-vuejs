@@ -275,7 +275,7 @@
           </div>
           <div class="work-experience-item">
             <h3>Laravel Developer</h3>
-            <p>LinkTech IT, 10 October 2019 - March 2020</p>
+            <p>LinkTech IT, 10 October 2019 - February 2020</p>
             <ul>
               <li>
                 Create, develop and maintain dynamic websites using Laravel MVC
