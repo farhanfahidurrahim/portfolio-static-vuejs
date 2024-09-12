@@ -373,13 +373,13 @@
           <div class="education-item">
             <h3>HSC</h3>
             <p>Gurudayal Govt College, 2013</p>
-            <p>GPA: 4.10</p>
+            <h5>GPA: 4.10</h5>
           </div>
 
           <div class="education-item">
             <h3>SSC</h3>
             <p>Kishoreganj Govt Boys High School, 2011</p>
-            <p>GPA: 4.75</p>
+            <h6>GPA: 4.75</h6>
           </div>
         </div>
       </div>
