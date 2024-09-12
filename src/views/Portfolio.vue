@@ -362,7 +362,8 @@
         <div class="education-grid">
           <div class="education-item">
             <h3>BSc in Software Engineering</h3>
-            <p>American International University Bangladesh (AIUB)</p>
+            <p>American International University Bangladesh (AIUB), 2019</p>
+            <p>CGPA: 3.01</p>
             <!-- <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
               libero nec quam aliquet suscipit.
@@ -372,11 +373,13 @@
           <div class="education-item">
             <h3>HSC</h3>
             <p>Gurudayal Govt College, 2013</p>
+            <p>GPA: 4.10</p>
           </div>
 
           <div class="education-item">
             <h3>SSC</h3>
             <p>Kishoreganj Govt Boys High School, 2011</p>
+            <p>GPA: 4.75</p>
           </div>
         </div>
       </div>
@@ -407,7 +410,7 @@
               Extensive experience with PHP, Laravel, MySQL, JavaScript, and
               Vue.js.
             </li>
-            <li>Proven ability to develop and implement RESTful APIs.</li>
+            <li>Proven ability to develop and implement RestAPIs.</li>
             <li>
               Track record of leading successful projects and delivering on
               time.
@@ -478,7 +481,7 @@ const projects = [
     key_points: [
       "Develop, build, and maintain RESTful APIs using Laravel and MySQL to support front-end.",
       "Focused on backend logic, providing APIs for seamless integration with the React.js frontend.",
-      "Challenging Part: Multiple Product Variation, Branch wise stock, sale, accounting,  distribution.",
+      "Challenging Part: Product Variation, Branch wise stock, sale, accounting, print label, distribution.",
     ],
     link: "https://classic-pos-frontend.classicit.org",
   },
