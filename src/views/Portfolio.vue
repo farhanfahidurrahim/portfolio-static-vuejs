@@ -232,7 +232,7 @@
         <div class="work-experience-grid">
           <div class="work-experience-item">
             <h3>Jr. Software Developer</h3>
-            <p>Classic IT, November 2023 - Present</p>
+            <p>Classic IT, 7 November 2023 - Present</p>
             <ul>
               <li>
                 Conduct client meetings to gather and clarify project
@@ -275,7 +275,7 @@
           </div>
           <div class="work-experience-item">
             <h3>Laravel Developer</h3>
-            <p>LinkTech IT, October 2019 - March 2020</p>
+            <p>LinkTech IT, 10 October 2019 - March 2020</p>
             <ul>
               <li>
                 Create, develop and maintain dynamic websites using Laravel MVC
@@ -404,7 +404,7 @@
           <ul>
             <li>Strong foundation in software development principles and practices.</li>
             <li>Extensive experience in backend development with PHP, Laravel, and MySQL.</li>
-            <li>Extensive expertise in developing and implementing highly efficient and scalable RESTful APIs</li>
+            <li>Extensive expertise in developing and implementing highly efficient and scalable RESTful APIs.</li>
             <li>Proficient in JavaScript, including AJAX and jQuery for dynamic web development.</li>
             <li>Familiarity with frontend development using Vue.js.</li>
             <li>Track record of leading successful projects and delivering on time.</li>
