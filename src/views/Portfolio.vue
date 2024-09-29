@@ -457,11 +457,11 @@ const projects = [
   {
     id: 1,
     title: "Manufacturing Project",
-    technology: "VueJs [ Frontend ], Laravel [Backend]",
+    technology: "VueJs [Frontend], Laravel [Backend]",
     key_points: [
       "Developed and built dynamic frontend applications using Vue.js.",
-      "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
       "Implemented Vue.js 3 Composition API to build interactive interfaces & ensure performance.",
+      "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
     ],
     link: "https://manufacturing.classicitltd.com",
   },
