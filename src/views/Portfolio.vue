@@ -456,14 +456,14 @@ const name = "Md. Fahidur Rahim";
 const projects = [
   {
     id: 1,
-    title: "Vue Js Project (Personal)",
-    technology: "Vue Js [ Frontend ]",
+    title: "Manufacturing Project",
+    technology: "VueJs [ Frontend ], Laravel [Backend]",
     key_points: [
       "Developed and built dynamic frontend applications using Vue.js.",
       "Integrated Vue.js applications with Laravel APIs for seamless backend communication.",
       "Implemented Vue.js 3 Composition API to build interactive interfaces & ensure performance.",
     ],
-    link: "https://github.com/farhanfahidurrahim/POS-Software-Frontend-VueJs",
+    link: "https://manufacturing.classicitltd.com",
   },
   {
     id: 2,
