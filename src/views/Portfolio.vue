@@ -105,6 +105,12 @@
               MySQL
             </h3>
           </div>
+          <div class="skill-item">
+            <h3>
+              <img src="../assets/img/icon/pgsql.png" alt="mysql Icon" style="width: 60px; vertical-align: middle" />
+              PgSQL
+            </h3>
+          </div>
         </div>
 
         <div class="skills-grid mt-5">
@@ -122,6 +128,12 @@
           </div>
           <div class="skill-item">
             <h3>
+              <img src="../assets/img/icon/react.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              React JS
+            </h3>
+          </div>
+          <div class="skill-item">
+            <h3>
               <img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
               Vue JS
             </h3>
@@ -129,6 +141,12 @@
         </div>
 
         <div class="skills-grid mt-5">
+          <div class="skill-item">
+            <h3>
+              <img src="../assets/img/icon/bootstrap.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              Bootstrap
+            </h3>
+          </div>
           <div class="skill-item">
             <h3>
               <img src="../assets/img/icon/jquery.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
