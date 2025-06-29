@@ -107,7 +107,7 @@
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/pgsql.png" alt="mysql Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/pgsql.png" alt="pgsql Icon" style="width: 60px; vertical-align: middle" />
               PgSQL
             </h3>
           </div>
@@ -128,7 +128,7 @@
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/react.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/react.png" alt="react Icon" style="width: 60px; vertical-align: middle" />
               React JS
             </h3>
           </div>
@@ -143,25 +143,25 @@
         <div class="skills-grid mt-5">
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/bootstrap.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/bootstrap.png" alt="bootstrap Icon" style="width: 60px; vertical-align: middle" />
               Bootstrap
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/jquery.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/jquery.png" alt="jquery Icon" style="width: 60px; vertical-align: middle" />
               Jquery
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/ajax.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/ajax.png" alt="ajax Icon" style="width: 60px; vertical-align: middle" />
               Ajax
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/git.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/git.png" alt="git Icon" style="width: 60px; vertical-align: middle" />
               Git
             </h3>
           </div>
@@ -443,6 +443,24 @@ const scrollToSection = (sectionId) => {
 
 const name = "Md. Fahidur Rahim";
 const projects = [
+  {
+    id: 1,
+    title: "Naval House Management System (NHAMS)",
+    technology: "Laravel, MySQL",
+    key_points: [
+      "",
+    ],
+    link: "",
+  },
+  {
+    id: 1,
+    title: "Health Engineering Department (HED)",
+    technology: "Laravel, PgSQL",
+    key_points: [
+      "",
+    ],
+    link: "",
+  },
   {
     id: 1,
     title: "Manufacturing Project",
