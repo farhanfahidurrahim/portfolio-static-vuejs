@@ -26,18 +26,18 @@
     <section id="hero" class="hero">
       <div class="container hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">Hello, It's Me<br />{{ name }}</h1>
+          <h1 class="hero-title">Hello, It's Me<br/>{{ name }}</h1>
           <p class="hero-subtitle">
             <span class="highlight">Software Developer</span>
           </p>
           <p class="hero-description">
             Phone: 01675717825
-            <br />
+            <br/>
             Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
             <a href="https://drive.google.com/file/d/1Z5HWh8zfPeUdM6bPo1fegXOm-uU88CXL/view?usp=sharing" target="_blank"
-              class="btn btn-primary">Download Resume</a>
+               class="btn btn-primary">Download Resume</a>
             <div class="social-links">
               <a href="https://www.linkedin.com/in/md-fahidur-rahim/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <p class="hero-subtitle-exp mt-3">
-            <span class="highlight">1+ years</span> of Experience
+            <span class="highlight">2+ years</span> of Experience
           </p>
         </div>
         <!--        <div class="hero-image"></div> &lt;!&ndash; Background image applied through CSS &ndash;&gt;-->
@@ -58,19 +58,19 @@
     <section id="about" class="about">
       <div class="container about-content">
         <div class="about-image">
-          <img src="../views/../assets/img/profile.jpg" alt="Your Image" />
+          <img src="../views/../assets/img/profile.jpg" alt="Your Image"/>
         </div>
         <div class="about-text">
           <h2>About <span class="highlight">Me</span></h2>
           <!-- <h3>Software Developer!</h3> -->
           <p>
-            I am Md. Fahidur Rahim, a passionate Software Developer with a
-            strong background in PHP, Laravel, MySQL, RestAPI, JavaScript, and
-            Vue.js. With over 1 years of experience in the industry, I have
-            developed and maintained web applications, built APIs for frontend
-            and mobile developers, and led teams to deliver high-quality
-            projects on time. Currently, I am working at Classic IT, where I
-            continue to hone my skills and contribute to exciting projects.
+            I am Md. Fahidur Rahim, a passionate Software Developer with over 2 years of experience and a strong
+            background in PHP (OOP), Laravel, MySQL, PostgreSQL, and RESTful API development. I am currently learning
+            frontend development using React.js and am also familiar with Vue.js. Throughout my career, I have developed
+            and maintained web applications, built APIs for frontend and mobile developers, and led teams to deliver
+            high-quality projects on time. I am eager to contribute to innovative projects while continuing to grow my
+            expertise in a collaborative, dynamic environment. I am seeking a role that allows me to tackle challenging
+            projects and further develop my skills within a team.
           </p>
           <!-- <a href="#" class="btn btn-secondary">Read More</a> -->
         </div>
@@ -85,7 +85,7 @@
         <div class="skills-grid">
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/php.png" alt="php Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/php.png" alt="php Icon" style="width: 60px; vertical-align: middle"/>
               PHP OOP
             </h3>
             <!--            <div class="skill-bar">-->
@@ -95,19 +95,19 @@
           <div class="skill-item">
             <h3>
               <img src="../assets/img/icon/laravel.png" alt="laravel Icon"
-                style="width: 60px; vertical-align: middle" />
+                   style="width: 60px; vertical-align: middle"/>
               Laravel
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/database.png" alt="mysql Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/database.png" alt="mysql Icon" style="width: 60px; vertical-align: middle"/>
               MySQL
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/pgsql.png" alt="pgsql Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/pgsql.png" alt="pgsql Icon" style="width: 60px; vertical-align: middle"/>
               PgSQL
             </h3>
           </div>
@@ -116,25 +116,25 @@
         <div class="skills-grid mt-5">
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/api.png" alt="api Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/api.png" alt="api Icon" style="width: 60px; vertical-align: middle"/>
               RestAPI
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/javascript.png" alt="js Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/javascript.png" alt="js Icon" style="width: 60px; vertical-align: middle"/>
               JavaScript
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/react.png" alt="react Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/react.png" alt="react Icon" style="width: 60px; vertical-align: middle"/>
               React JS
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/vue.png" alt="vue Icon" style="width: 60px; vertical-align: middle"/>
               Vue JS
             </h3>
           </div>
@@ -143,25 +143,26 @@
         <div class="skills-grid mt-5">
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/bootstrap.png" alt="bootstrap Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/bootstrap.png" alt="bootstrap Icon"
+                   style="width: 60px; vertical-align: middle"/>
               Bootstrap
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/jquery.png" alt="jquery Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/jquery.png" alt="jquery Icon" style="width: 60px; vertical-align: middle"/>
               Jquery
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/ajax.png" alt="ajax Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/ajax.png" alt="ajax Icon" style="width: 60px; vertical-align: middle"/>
               Ajax
             </h3>
           </div>
           <div class="skill-item">
             <h3>
-              <img src="../assets/img/icon/git.png" alt="git Icon" style="width: 60px; vertical-align: middle" />
+              <img src="../assets/img/icon/git.png" alt="git Icon" style="width: 60px; vertical-align: middle"/>
               Git
             </h3>
           </div>
@@ -179,37 +180,28 @@
           <div class="work-experience-item">
             <h3>Software Developer</h3>
             <p>
-              <span class="company-name">Totalofftec</span>, 18 October 2024 - Present
+              <span class="company-name">Totalofftec</span>, 19 October 2024 - Present
             </p>
             <ul>
               <li>
-                Conduct client meetings to gather and clarify project
-                requirements, convert the requirements into actionable project
-                ideas and designs.
+                Build new projects and add new features to existing Laravel-based software based on client requirements.
               </li>
               <li>
-                Develop, build, and maintain RESTful APIs using Laravel and
-                MySQL to support front-end applications (React, Vue, Flutter).
+                Debug and fix issues in existing Laravel applications and provide ongoing client support.
               </li>
               <li>
-                Develop and build front-end applications using Vue.js,
-                integrated with Laravel APIs.
+                Develop, build and maintain RESTful APIs using Laravel Integrate and build frontend features using
+                React.js.
               </li>
               <li>
-                Create and develop dynamic websites following the Laravel MVC
-                pattern in client requirements.
-              </li>
-              <li>
-                Identify and resolve bugs and errors in the project, providing
-                client support for updates and testing to ensure project
-                quality.
+                Collaborate with clients to ensure high-quality, scalable project delivery.
               </li>
             </ul>
           </div>
           <div class="work-experience-item">
             <h3>Jr. Software Developer</h3>
             <p>
-              <span class="company-name">Classic IT</span>, 07 November 2023 - 16 October 2024
+              <span class="company-name">Classic IT</span>, 07 November 2023 - 15 October 2024
             </p>
             <ul>
               <li>
@@ -224,10 +216,6 @@
               <li>
                 Develop and build front-end applications using Vue.js,
                 integrated with Laravel APIs.
-              </li>
-              <li>
-                Create and develop dynamic websites following the Laravel MVC
-                pattern in client requirements.
               </li>
               <li>
                 Identify and resolve bugs and errors in the project, providing
@@ -376,9 +364,10 @@
               practices.
             </li>
             <li>
-              Extensive experience in backend development with PHP, Laravel, and
-              MySQL.
+              Extensive experience in backend development with PHP, Laravel, and MySQL, along with working experience in
+              PgSQL.
             </li>
+
             <li>
               Extensive expertise in developing and implementing highly
               efficient and scalable RESTful APIs.
@@ -387,6 +376,7 @@
               Proficient in JavaScript, including AJAX and jQuery for dynamic
               web development.
             </li>
+            <li>Recently learning in frontend development using React.js</li>
             <li>Familiarity with frontend development using Vue.js.</li>
             <li>
               Track record of leading successful projects and delivering on
@@ -437,7 +427,7 @@ import './Portfolio.css'
 const scrollToSection = (sectionId) => {
   const element = document.getElementById(sectionId);
   if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
+    element.scrollIntoView({behavior: "smooth"});
   }
 };
 
@@ -448,21 +438,36 @@ const projects = [
     title: "Naval House Management System (NHAMS)",
     technology: "Laravel, MySQL",
     key_points: [
-      "",
+      "Featured additions and bug fixing using Laravel.",
+      "Naval area-wise house allotment, house roster, house change, house extension, transfer, parking, reporting, and system management modules.",
+      "HAC (House Allotment Committee) report create, House Vacant Report"
     ],
-    link: "",
+    link: "http://nhams.kazionline.com",
   },
   {
-    id: 1,
+    id: 2,
     title: "Health Engineering Department (HED)",
-    technology: "Laravel, PgSQL",
+    technology: "Laravel, PgSQL, API Integration",
     key_points: [
-      "",
+      "Realtime attendance using fingerprint and facial recognition through API.",
+      "Scheduled time tracking for present, absent, and late statuses with in-time and out-time records.",
+      "Seamless integration with biometric machines for accurate attendance monitoring."
     ],
     link: "",
   },
   {
-    id: 1,
+    id: 3,
+    title: "Timetrack Biometric Attendance Management System",
+    technology: "Laravel, MySQL, API Integration",
+    key_points: [
+      "Realtime attendance using fingerprint and facial recognition through API.",
+      "Scheduled time tracking for present, absent, and late statuses with in-time and out-time records.",
+      "Seamless integration with biometric machines for accurate attendance monitoring."
+    ],
+    link: "",
+  },
+  {
+    id: 3,
     title: "Manufacturing Project",
     technology: "VueJs [Frontend], Laravel [Backend]",
     key_points: [
@@ -473,7 +478,7 @@ const projects = [
     link: "https://manufacturing.classicitltd.com",
   },
   {
-    id: 2,
+    id: 4,
     title: "Classic POS",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
@@ -484,7 +489,7 @@ const projects = [
     link: "https://classic-pos-frontend.classicit.org",
   },
   {
-    id: 3,
+    id: 5,
     title: "Creation EDGE",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
@@ -495,7 +500,7 @@ const projects = [
     link: "https://pos.creationedge.com.bd",
   },
   {
-    id: 4,
+    id: 6,
     title: "Sun Shine Power",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
@@ -506,7 +511,7 @@ const projects = [
     link: "https://sunsine.classicitltd.com",
   },
   {
-    id: 5,
+    id: 7,
     title: "Porichoy Traders Flutter App",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
@@ -517,7 +522,7 @@ const projects = [
     link: "https://play.google.com/store/apps/details?id=com.porichoytraders.porichoytraders&hl=en",
   },
   {
-    id: 6,
+    id: 8,
     title: "Wood Machinery (Web & Flutter)",
     technology: "PHP Laravel (API) [ Backend ]",
     key_points: [
