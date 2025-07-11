@@ -36,7 +36,7 @@
             Email: farhan.fahidurrahim@gmail.com
           </p>
           <div class="hero-buttons">
-            <a href="https://drive.google.com/file/d/1Z5HWh8zfPeUdM6bPo1fegXOm-uU88CXL/view?usp=sharing" target="_blank"
+            <a href="https://drive.google.com/file/d/19V-FDZcgG7dktPQnFJK9g16XlRvzU5i7/view?usp=sharing" target="_blank"
                class="btn btn-primary">Download Resume</a>
             <div class="social-links">
               <a href="https://www.linkedin.com/in/md-fahidur-rahim/" target="_blank" rel="noopener noreferrer">
